@@ -1,3 +1,9 @@
+'''
+Author: misaki misakiwang74@gmail.com
+Date: 2023-12-26 10:25:51
+LastEditors: misaki misakiwang74@gmail.com
+LastEditTime: 2024-02-26 20:21:18
+'''
 from cs285.infrastructure.utils import *
 
 
@@ -31,7 +37,7 @@ class ReplayBuffer(object):
 
         # convert new rollouts into their component arrays, and append them onto
         # our arrays
-        observations, actions, rewards, next_observations, terminals = (
+        observations, actions, rewards, next_observations, terminals = (``
             convert_listofrollouts(paths, concat_rew))
 
         if self.obs is None:
